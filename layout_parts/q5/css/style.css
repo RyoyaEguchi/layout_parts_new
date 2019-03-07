@@ -2,4 +2,88 @@
 
 /* 回答はここに書いてね */
 
+.plot{
+  width: 500px;
+  height: 500px;
+  background-color: #edf1f2;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+}
+.plot:last-child{
+  
+}
+.field{
+  font-size: 36px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.one{
+  background-color: #ffefd3;
+  z-index: 500;
+  top: 40px;
+  left: 200px;
+}
+.two{
+  background-color: #7084de;
+  z-index: 550;
+  top: 120px;
+  left: 280px;
+}
+.three{
+  background-color: #d0ecea;
+  z-index: 600;
+  top: 200px;
+  left: 360px;
+}
+.four{
+  background-color: #8b7a5e;
+  z-index: 650;
+  top: 280px;
+  left: 280px;
+}
+.five{
+  background-color: #9fd6d2;
+  z-index: 700;
+  top: 360px;
+  left: 200px;
+}
+.six{
+  background-color: #fffee4;
+  z-index: 750;
+  top: 280px;
+  left: 120px;
+}
+.seven{
+  background-color: #deae70;
+  z-index: 800;
+  top: 200px;
+  left: 40px;
+}
+.eight{
+  background-color: #de70cf;
+  z-index: 850;
+  top: 120px;
+  left: 120px;
+}
+.eight:after{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  top: 0px;
+  left: 80px;
+  z-index: 900;
+  content: "";
+}
+.nine{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #2b69a3;
+}
 /* 回答はここに書いてね */

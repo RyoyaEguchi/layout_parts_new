@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.eat-menu{
+  width: 100%;
+  border-collapse: collapse;
+}
+.eat-menu th,.eat-menu td:first-child{
+  color: #fff;
+  background-color: #2244aa;
+}
+.eat-menu th,.eat-menu td{
+  padding: 10px;
+  border: 1px solid #dedede;
+  text-align: center;
+}
+.eat-menu tr:nth-child(even){
+  background-color: #ecf1f2;
+}
+.eat-menu tr:last-child{
+  border-top: 2px dashed #000;
+}
 /* 回答はここに書いてね */
