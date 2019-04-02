@@ -16,24 +16,24 @@
   text-align: center;
   box-sizing: content-box;
 }
-.variable1{
+.table__pink{
   background-color: #e0abd9;
 }
-.variable2{
+.table__yellow{
   background-color: #e5d32e;
 }
-.variable3{
+.table__red{
   background-color: #ed8f9a;
 }
-.fix1{
+.table__smorkPink{
   width: 100px;
   background-color: #fdc8b8;
 }
-.fix2{
+.table__blue{
   width: 100px;
   background-color: #b6d8ed;
 }
-.fix3{
+.table__green{
   width: 500px;
   background-color: #8fdcad;
 }
