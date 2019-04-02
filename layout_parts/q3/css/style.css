@@ -17,7 +17,7 @@
 .eat-menu tr:nth-child(even){
   background-color: #ecf1f2;
 }
-.eat-menu tr:last-child{
+.eat-menu tfoot{
   border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */
